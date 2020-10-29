@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+body {
+    background: #ffd8d8;
+    background: url(./asset/Images/front-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+p {
+    font-size: 13px;
+}
+section {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+header {
+    grid-template-columns: 10% 95%;
+    grid-template-rows: auto;
+    display: grid;
+    column-gap: 10px;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+.logo {
+    width: 10%;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+}
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+.nav {
+    width: 87%;
+    height: auto;
+    margin: 10px 20px 10px 40px;
+    border-left: 1px #838383 solid;
+    max-height: 100px;
+}
+.nav-top {
+    grid-template-columns: 60% 5%;
+    grid-template-rows: 20px;
+    display: grid;
+    justify-content: space-between;
+    padding: 15px 0 15px 40px;
+    border-bottom: 1px #838383 solid;
+}
+.info {
+    display: grid;
+    grid-template-columns: 40% 45%;
+    grid-template-rows: auto;
+    justify-content: start;
+}
+.info img {
+    width: 20px;
+    height: auto;
+}
+.info-isi {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 20px;
+    justify-content: space-between;
+}
+.info-isi:nth-child(2) p {
+    justify-self: center;
+    padding: 4px 10px 0 10px;
+    font-size: 9px;
+    border-radius: 10px;
+    background-color:rgba(226, 226, 226, 0.425);
+    font-weight: 700;
+    color: #192043;
+}
+.info:last-child img {
+    margin: 0 20px 0 0;
+}
+.info p {
+    margin: 0 40px 0 10px;
+    font-weight: 600;
+}
+.nav-bottom {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    padding: 15px 0 0 0;
+}
+.list ul{
+    display: grid;
+    grid-template-columns: 15% 15% 10% 20% 15%;
+    grid-template-rows: 20px;
+    grid-gap: 20px;
+    justify-self: start;
+}
+.list:first-child ul li a {
+    color: black;
+}
+.list:nth-child(2) ul li a {
+    margin: 0 0 0 20px;
+}
+/* .list:first-child ul li a:hover {
+    color: #192043;
+} */
+.dropdown .dropdown-btn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #192043;
+    font-weight: 700;
+    background: none;
+}
+.dropdown:hover .dropdown-bg {
+    display: block;
+}
+.dropdown-bg {
+    display: none;
+}
+.dropdown-bg img {
+    width: 30px;
+    height: auto;
+    margin: 0 0 -15px 10px;
+}
+.dropdown-isi {
+    background: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    height: auto;
+    padding: 20px 0 20px 0;
+    position: absolute;
+    margin: 0 0 0 -50px;
+}
+.dropdown-isi ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-isi ul li a {
+    font-size: 13px;
+    color: #b1b1b1;
+    font-weight: 600;
+}
+.dropdown-isi ul li {
+    margin: 0 ;
+}
+.dropdown-isi ul li a:hover {
+    color: #192043;
+}
+.main-text {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.main-text h1 {
+    float: left;
+    margin: 60px 0 0 0;
+    font-size: 45px;
+    font-weight: 600px;
+    font-family: 'Playfair Display', serif;
+}
+.main-text p {
+    font-size: 20px;
+}
+.konten button {
+    padding: 10px 40px;
+    font-weight: 700;
+    margin: 40px 20px 0 0;
+    border: 1px #6a6f88 solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.konten button:first-child {
+    color: #ffff;
+    background: #00b76d;
+    border: 1px transparent solid;
+}
+.konten button:first-child:hover {
+    color: #ffff;
+    background: #00965a;
+    border: 1px transparent solid;
+}
+.konten button:last-child {
+    background: none;
+    padding: 10px 25px;
+}
+.konten button:last-child:hover {
+    background: none;
+    border: 1px #00965a solid;
+    color: #00965a;
+}
+.stampel {
+    margin: 20px 0 40px 0;
+}
+.stampel img{
+    width: 80px;
+    height: auto;
+    margin: 0 20px 0 0;
+}
